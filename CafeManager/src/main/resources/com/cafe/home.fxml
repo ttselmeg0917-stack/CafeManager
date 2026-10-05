@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="14" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cafe.HomeController">
+    <padding><Insets top="20" right="20" bottom="20" left="20"/></padding>
+
+    <Label fx:id="welcomeLabel" styleClass="page-title"/>
+    <HBox spacing="16">
+        <VBox styleClass="card, blue" HBox.hgrow="ALWAYS" maxWidth="Infinity">
+            <Label text="Бүтээгдэхүүн" styleClass="card-title"/>
+            <Label fx:id="productCountLabel" text="0" styleClass="card-value"/>
+            <Label text="Бүртгэлтэй бараа" styleClass="muted"/>
+        </VBox>
+        <VBox styleClass="card, orange" HBox.hgrow="ALWAYS" maxWidth="Infinity">
+            <Label text="Өнөөдрийн захиалга" styleClass="card-title"/>
+            <Label fx:id="orderCountLabel" text="0" styleClass="card-value"/>
+            <Label text="Захиалгын тоо" styleClass="muted"/>
+        </VBox>
+        <VBox styleClass="card, green" HBox.hgrow="ALWAYS" maxWidth="Infinity">
+            <Label text="Өдрийн орлого" styleClass="card-title"/>
+            <Label fx:id="revenueLabel" text="0₮" styleClass="card-value"/>
+            <Label text="Өнөөдрийн нийт дүн" styleClass="muted"/>
+        </VBox>
+    </HBox>
+
+    <Label text="Сүүлийн захиалгууд" styleClass="title"/>
+    <TableView fx:id="recentTable" VBox.vgrow="ALWAYS">
+        <columnResizePolicy><TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/></columnResizePolicy>
+        <placeholder><Label text="Захиалга алга"/></placeholder>
+        <columns>
+            <TableColumn text="Дугаар" maxWidth="90"><cellValueFactory><PropertyValueFactory property="id"/></cellValueFactory></TableColumn>
+            <TableColumn text="Огноо"><cellValueFactory><PropertyValueFactory property="dateText"/></cellValueFactory></TableColumn>
+            <TableColumn text="Төлбөрийн хэлбэр"><cellValueFactory><PropertyValueFactory property="paymentMethod"/></cellValueFactory></TableColumn>
+            <TableColumn text="Ажилтан"><cellValueFactory><PropertyValueFactory property="cashier"/></cellValueFactory></TableColumn>
+            <TableColumn text="Төлбөр"><cellValueFactory><PropertyValueFactory property="totalText"/></cellValueFactory></TableColumn>
+        </columns>
+    </TableView>
+</VBox>

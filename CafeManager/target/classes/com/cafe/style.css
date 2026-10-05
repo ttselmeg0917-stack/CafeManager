@@ -1,0 +1,58 @@
+.root {
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #faf7f2;
+}
+
+/* Толгой хэсэг */
+.header { -fx-background-color: #4b2e1e; -fx-padding: 12 20 12 20; }
+.header-title { -fx-text-fill: white; -fx-font-size: 20px; -fx-font-weight: bold; }
+.header-user { -fx-text-fill: #f1e4d6; }
+.header-button { -fx-background-color: #7a5238; -fx-text-fill: white; -fx-background-radius: 6; }
+.header-button:hover { -fx-background-color: #94674a; }
+
+/* Гарчиг, текст */
+.brand { -fx-font-size: 30px; -fx-font-weight: bold; -fx-text-fill: #4b2e1e; }
+.page-title { -fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #4b2e1e; }
+.title { -fx-font-size: 16px; -fx-font-weight: bold; }
+.total { -fx-font-size: 22px; -fx-font-weight: bold; }
+.muted { -fx-text-fill: #7d746c; -fx-font-size: 12px; }
+.error-text { -fx-text-fill: #c0392b; }
+.login { -fx-background-color: #faf7f2; }
+
+/* Картууд */
+.card { -fx-padding: 16; -fx-background-radius: 10; -fx-spacing: 4; }
+.card-title { -fx-font-weight: bold; }
+.card-value { -fx-font-size: 26px; -fx-font-weight: bold; }
+.blue { -fx-background-color: #e6f0fd; }
+.green { -fx-background-color: #e1f6e6; }
+.orange { -fx-background-color: #ffeedd; }
+.gray { -fx-background-color: #f0ebe4; }
+
+/* Товчнууд */
+.button { -fx-background-radius: 6; -fx-padding: 7 14 7 14; -fx-cursor: hand; }
+.primary { -fx-background-color: #2e9e5b; -fx-text-fill: white; -fx-font-weight: bold; }
+.primary:hover { -fx-background-color: #268a4e; }
+.big { -fx-font-size: 16px; -fx-padding: 12 14 12 14; }
+
+/* Бүтээгдэхүүний карт */
+.product-scroll { -fx-background-color: transparent; -fx-background: #faf7f2; }
+.product-card {
+    -fx-pref-width: 150;
+    -fx-pref-height: 90;
+    -fx-background-color: white;
+    -fx-border-color: #e2d8cc;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+}
+.product-card:hover { -fx-background-color: #fff3e3; -fx-border-color: #c98a4b; }
+.product-card:pressed { -fx-background-color: #ffe2bd; }
+
+/* Хүснэгт, tab */
+.table-view { -fx-background-radius: 8; -fx-border-color: #e2d8cc; -fx-border-radius: 8; }
+.tab-pane .tab { -fx-padding: 6 16 6 16; }
+.tab-pane .tab:selected { -fx-background-color: #faf7f2; }
+.text-field, .password-field, .combo-box { -fx-background-radius: 6; }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="12" styleClass="login" stylesheets="@style.css"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cafe.RegisterController">
+    <padding><Insets top="30" right="50" bottom="30" left="50"/></padding>
+
+    <Label text="Шинэ хэрэглэгч" styleClass="brand"/>
+    <VBox spacing="6">
+        <Label text="Овог нэр"/>
+        <TextField fx:id="fullNameField" promptText="Жишээ: Бат"/>
+        <Label text="Хэрэглэгчийн нэр"/>
+        <TextField fx:id="usernameField" promptText="Жишээ: bat"/>
+        <Label text="Нууц үг"/>
+        <PasswordField fx:id="passwordField"/>
+        <Label text="Нууц үг давтах"/>
+        <PasswordField fx:id="confirmField"/>
+    </VBox>
+    <Label fx:id="messageLabel" styleClass="error-text"/>
+    <Button text="Бүртгүүлэх" onAction="#onRegister" defaultButton="true" styleClass="primary" maxWidth="Infinity"/>
+    <Button text="Буцах" onAction="#onBack" maxWidth="Infinity"/>
+</VBox>

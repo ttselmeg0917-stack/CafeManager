@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="12" styleClass="login" stylesheets="@style.css"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cafe.LoginController">
+    <padding><Insets top="40" right="50" bottom="40" left="50"/></padding>
+
+    <Label text="Cafe Manager" styleClass="brand"/>
+    <Label text="Захиалга, төлбөрийн бүртгэлийн систем" styleClass="muted"/>
+    <VBox spacing="6">
+        <VBox.margin><Insets top="20"/></VBox.margin>
+        <Label text="Хэрэглэгчийн нэр"/>
+        <TextField fx:id="usernameField" promptText="admin"/>
+        <Label text="Нууц үг"/>
+        <PasswordField fx:id="passwordField" promptText="Нууц үг"/>
+    </VBox>
+    <Label fx:id="messageLabel" styleClass="error-text"/>
+    <Button text="Нэвтрэх" onAction="#onLogin" defaultButton="true" styleClass="primary" maxWidth="Infinity"/>
+    <Button text="Шинэ хэрэглэгч бүртгүүлэх" onAction="#onRegister" maxWidth="Infinity"/>
+    <Label text="Анхны хэрэглэгч: admin / 1234" styleClass="muted"/>
+</VBox>

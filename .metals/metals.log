@@ -1,0 +1,495 @@
+2026.10.02 14:19:14 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\User\Desktop\coffee' for client Visual Studio Code 1.140.0.
+2026.10.02 14:19:14 INFO  Memory monitor started
+2026.10.02 14:19:14 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.02 14:19:16 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\test\java\com\example\AppTest.java. Using fallback presentation compiler.
+2026.10.02 14:19:22 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\test\java\com\example\AppTest.java. Using fallback presentation compiler.
+2026.10.02 14:19:22 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.02 14:19:22 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+Oct 02, 2026 2:19:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2026.10.02 14:19:22 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.02 14:19:22 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.02 23:39:11 INFO  Shutting down server
+2026.10.02 23:39:11 INFO  Memory monitor stopped
+2026.10.02 23:39:11 INFO  shutting down Metals
+2026.10.02 23:39:11 INFO  Exiting server
+2026.10.02 23:39:11 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.lang.Thread.run(Thread.java:1474)
+
+2026.10.04 16:16:55 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\User\Desktop\coffee' for client Visual Studio Code 1.140.0.
+2026.10.04 16:16:55 INFO  Memory monitor started
+2026.10.04 16:16:56 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.04 16:16:56 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.04 16:16:57 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.04 16:17:00 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.04 16:17:00 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.04 16:17:02 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.04 16:17:02 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.04 16:17:02 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.04 16:17:03 WARN  no build target for: C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java
+2026.10.04 16:17:03 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.04 16:17:03 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.04 16:17:03 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.04 16:17:05 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.04 16:17:08 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+Oct 04, 2026 4:21:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.10.04 16:21:36 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.04 16:40:49 INFO  no build target found for C:\Users\User\Desktop\coffee\my-app\src\main\java\com\example\App.java. Using fallback presentation compiler.
+2026.10.04 16:40:49 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java
+2026.10.04 16:40:49 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java. Using fallback presentation compiler.
+Oct 04, 2026 4:40:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+2026.10.04 16:40:49 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java. Using fallback presentation compiler.
+2026.10.04 16:40:49 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java. Using fallback presentation compiler.
+2026.10.04 16:40:49 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java. Using fallback presentation compiler.
+2026.10.04 16:40:50 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java. Using fallback presentation compiler.
+2026.10.04 16:40:50 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java. Using fallback presentation compiler.
+2026.10.04 16:46:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java. Using fallback presentation compiler.
+2026.10.04 16:46:20 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java
+2026.10.04 16:46:20 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 16:46:20 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 16:46:20 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 16:46:20 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 16:46:20 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 16:46:20 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 16:46:21 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 16:46:21 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 16:46:21 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 16:46:23 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 16:46:23 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:09:34 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:09:34 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:09:35 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:15:26 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:15:37 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:15:37 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Order.java
+2026.10.04 17:15:37 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Order.java. Using fallback presentation compiler.
+2026.10.04 17:15:37 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Order.java. Using fallback presentation compiler.
+2026.10.04 17:15:37 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Order.java. Using fallback presentation compiler.
+2026.10.04 17:15:38 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Order.java. Using fallback presentation compiler.
+2026.10.04 17:15:37 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Order.java. Using fallback presentation compiler.
+2026.10.04 17:15:40 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Order.java. Using fallback presentation compiler.
+2026.10.04 17:15:40 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java
+2026.10.04 17:15:40 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:15:40 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+Oct 04, 2026 5:15:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 100
+2026.10.04 17:15:40 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:15:40 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:15:40 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:15:40 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:15:43 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:15:43 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java
+2026.10.04 17:15:43 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:15:44 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:15:43 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:15:43 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:15:44 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:15:44 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:19:40 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:20:33 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:20:36 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:20:40 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+Oct 04, 2026 5:20:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 149
+2026.10.04 17:20:42 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:20:45 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:28:17 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:28:18 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:41:52 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:42:12 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:42:25 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java
+2026.10.04 17:42:25 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:42:26 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+Oct 04, 2026 5:42:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 217
+2026.10.04 17:42:25 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:42:25 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:42:26 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:42:25 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:53:04 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:53:04 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java
+2026.10.04 17:53:04 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:53:05 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+Oct 04, 2026 5:53:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 231
+Oct 04, 2026 5:53:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 232
+Oct 04, 2026 5:53:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 233
+2026.10.04 17:53:04 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:53:04 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HistoryController.java. Using fallback presentation compiler.
+2026.10.04 17:53:05 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HistoryController.java
+2026.10.04 17:53:05 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HistoryController.java. Using fallback presentation compiler.
+Oct 04, 2026 5:53:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 234
+2026.10.04 17:53:05 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HistoryController.java. Using fallback presentation compiler.
+2026.10.04 17:53:05 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HistoryController.java. Using fallback presentation compiler.
+2026.10.04 17:53:05 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HistoryController.java. Using fallback presentation compiler.
+2026.10.04 17:53:05 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HistoryController.java. Using fallback presentation compiler.
+2026.10.04 17:53:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HistoryController.java. Using fallback presentation compiler.
+2026.10.04 17:53:06 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java
+2026.10.04 17:53:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:53:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:53:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:53:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:53:07 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:53:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\DBConnection.java. Using fallback presentation compiler.
+2026.10.04 17:53:07 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java
+2026.10.04 17:53:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+Oct 04, 2026 5:53:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 254
+2026.10.04 17:53:07 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:53:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:53:07 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:53:07 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:53:07 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:53:09 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:53:21 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java
+2026.10.04 17:53:21 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:21 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:21 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:21 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:21 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:21 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:22 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:26 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:35 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java
+2026.10.04 17:53:35 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:35 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:35 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:35 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:35 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:35 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:45 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:45 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:46 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:46 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:46 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:46 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:47 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:46 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:47 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:47 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:51 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:51 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:51 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:53 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:53 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:53 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:53 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:55 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:58 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java
+2026.10.04 17:53:58 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\UserDAO.java. Using fallback presentation compiler.
+2026.10.04 17:53:59 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java
+2026.10.04 17:53:59 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:53:59 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:53:59 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:53:59 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:54:00 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:53:59 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:54:01 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:54:01 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:54:01 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:54:03 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:54:03 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:54:03 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:54:03 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:54:05 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java
+2026.10.04 17:54:05 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Session.java. Using fallback presentation compiler.
+2026.10.04 17:54:06 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java
+2026.10.04 17:54:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:07 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:10 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:10 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:11 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:11 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:11 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:11 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:13 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:13 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:13 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:13 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:14 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java
+2026.10.04 17:54:14 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\RegisterController.java. Using fallback presentation compiler.
+2026.10.04 17:54:15 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java
+2026.10.04 17:54:15 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+Oct 04, 2026 5:54:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 403
+2026.10.04 17:54:15 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:15 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:15 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:16 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:15 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:20 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:20 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:22 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:22 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:23 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:24 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:24 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:24 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java
+2026.10.04 17:54:24 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:24 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java
+2026.10.04 17:54:24 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:25 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java
+2026.10.04 17:54:25 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:24 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:25 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:25 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:25 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:26 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java
+2026.10.04 17:54:26 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:26 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:26 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:26 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:27 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:26 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:26 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:27 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java
+2026.10.04 17:54:26 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:27 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:27 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:27 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:27 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:27 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:29 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:29 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+Oct 04, 2026 5:54:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 483
+2026.10.04 17:54:29 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:29 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:29 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:30 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:30 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:32 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java
+2026.10.04 17:54:32 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Receipt.java. Using fallback presentation compiler.
+2026.10.04 17:54:33 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:33 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java
+2026.10.04 17:54:33 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:33 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:33 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:33 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:33 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:33 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java
+2026.10.04 17:54:33 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:34 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:33 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:34 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:34 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:34 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:38 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:38 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:40 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:40 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:40 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:41 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java
+2026.10.04 17:54:41 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductDAO.java. Using fallback presentation compiler.
+2026.10.04 17:54:42 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java
+2026.10.04 17:54:42 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:42 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:42 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:42 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:43 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:42 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:44 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:44 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:46 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:46 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:47 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:47 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:51 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+Oct 04, 2026 5:54:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 573
+2026.10.04 17:54:51 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:53 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:53 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:54 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:54 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:54 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+Oct 04, 2026 5:54:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 578
+2026.10.04 17:54:56 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java
+2026.10.04 17:54:56 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\ProductController.java. Using fallback presentation compiler.
+2026.10.04 17:54:57 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java
+2026.10.04 17:54:57 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:54:57 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:54:57 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:54:57 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:54:57 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:55:02 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:55:02 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java
+2026.10.04 17:55:02 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:02 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:02 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:02 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:02 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:02 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:03 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:03 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java
+2026.10.04 17:55:03 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:55:03 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:55:03 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:55:04 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:55:03 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:55:04 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:55:05 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java
+2026.10.04 17:55:04 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:05 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:04 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:04 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:05 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:04 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:06 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:07 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:07 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:07 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:08 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java
+2026.10.04 17:55:08 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:08 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:08 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:08 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:08 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderItem.java. Using fallback presentation compiler.
+2026.10.04 17:55:10 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java
+2026.10.04 17:55:10 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:55:10 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:55:11 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:55:11 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:55:10 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:55:10 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:55:13 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Product.java. Using fallback presentation compiler.
+2026.10.04 17:55:13 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java
+2026.10.04 17:55:13 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:13 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:13 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:13 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:14 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:13 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:20 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:20 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:21 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:21 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:21 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:23 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:23 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:23 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:24 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:24 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:26 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:26 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:26 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:26 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:27 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:27 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:28 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java
+2026.10.04 17:55:28 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderDAO.java. Using fallback presentation compiler.
+2026.10.04 17:55:29 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java
+2026.10.04 17:55:29 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:29 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:29 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:29 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:29 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:29 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:31 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:31 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:31 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:32 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:32 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:32 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:33 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:36 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:36 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:36 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:36 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:37 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:37 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:37 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:38 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:38 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:38 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java
+2026.10.04 17:55:38 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\OrderController.java. Using fallback presentation compiler.
+2026.10.04 17:55:43 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Order.java
+2026.10.04 17:55:43 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Order.java. Using fallback presentation compiler.
+2026.10.04 17:55:43 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Order.java. Using fallback presentation compiler.
+Oct 04, 2026 5:55:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 785
+2026.10.04 17:55:43 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Order.java. Using fallback presentation compiler.
+2026.10.04 17:55:43 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Order.java. Using fallback presentation compiler.
+2026.10.04 17:55:43 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Order.java. Using fallback presentation compiler.
+2026.10.04 17:55:46 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Order.java. Using fallback presentation compiler.
+2026.10.04 17:55:46 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\MainController.java
+2026.10.04 17:55:46 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\MainController.java. Using fallback presentation compiler.
+2026.10.04 17:55:46 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\MainController.java. Using fallback presentation compiler.
+2026.10.04 17:55:46 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\MainController.java. Using fallback presentation compiler.
+2026.10.04 17:55:46 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\MainController.java. Using fallback presentation compiler.
+2026.10.04 17:55:46 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\MainController.java. Using fallback presentation compiler.
+2026.10.04 17:55:46 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\MainController.java. Using fallback presentation compiler.
+2026.10.04 17:55:49 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\MainController.java. Using fallback presentation compiler.
+2026.10.04 17:55:49 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\MainController.java. Using fallback presentation compiler.
+2026.10.04 17:55:50 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\MainController.java. Using fallback presentation compiler.
+2026.10.04 17:55:50 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\MainController.java. Using fallback presentation compiler.
+2026.10.04 17:55:50 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\MainController.java. Using fallback presentation compiler.
+2026.10.04 17:55:51 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\MainController.java. Using fallback presentation compiler.
+2026.10.04 17:55:51 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\MainController.java
+2026.10.04 17:55:51 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\MainController.java. Using fallback presentation compiler.
+2026.10.04 17:55:52 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\LoginController.java
+2026.10.04 17:55:52 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\LoginController.java. Using fallback presentation compiler.
+Oct 04, 2026 5:55:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 826
+2026.10.04 17:55:52 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\LoginController.java. Using fallback presentation compiler.
+2026.10.04 17:55:52 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\LoginController.java. Using fallback presentation compiler.
+2026.10.04 17:55:52 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\LoginController.java. Using fallback presentation compiler.
+2026.10.04 17:55:53 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\LoginController.java. Using fallback presentation compiler.
+2026.10.04 17:55:52 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\LoginController.java. Using fallback presentation compiler.
+2026.10.04 17:55:53 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java
+2026.10.04 17:55:52 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java. Using fallback presentation compiler.
+2026.10.04 17:55:53 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java. Using fallback presentation compiler.
+2026.10.04 17:55:52 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java. Using fallback presentation compiler.
+2026.10.04 17:55:52 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java. Using fallback presentation compiler.
+2026.10.04 17:55:53 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java. Using fallback presentation compiler.
+2026.10.04 17:55:54 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java. Using fallback presentation compiler.
+2026.10.04 17:55:58 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\Main.java. Using fallback presentation compiler.
+2026.10.04 17:55:58 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\LoginController.java
+2026.10.04 17:55:58 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\LoginController.java. Using fallback presentation compiler.
+2026.10.04 17:55:58 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\LoginController.java. Using fallback presentation compiler.
+2026.10.04 17:55:58 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\LoginController.java. Using fallback presentation compiler.
+2026.10.04 17:55:58 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\LoginController.java. Using fallback presentation compiler.
+2026.10.04 17:55:58 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\LoginController.java. Using fallback presentation compiler.
+2026.10.04 17:56:01 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\LoginController.java. Using fallback presentation compiler.
+2026.10.04 17:56:01 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java
+2026.10.04 17:56:01 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java. Using fallback presentation compiler.
+2026.10.04 17:56:01 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java. Using fallback presentation compiler.
+2026.10.04 17:56:01 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java. Using fallback presentation compiler.
+2026.10.04 17:56:01 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java. Using fallback presentation compiler.
+2026.10.04 17:56:01 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java. Using fallback presentation compiler.
+2026.10.04 17:56:01 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java. Using fallback presentation compiler.
+2026.10.04 17:56:02 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java. Using fallback presentation compiler.
+2026.10.04 17:56:02 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java. Using fallback presentation compiler.
+2026.10.04 17:56:02 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java. Using fallback presentation compiler.
+2026.10.04 17:56:04 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java. Using fallback presentation compiler.
+2026.10.04 17:56:04 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java. Using fallback presentation compiler.
+2026.10.04 17:56:04 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java. Using fallback presentation compiler.
+2026.10.04 17:56:04 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java. Using fallback presentation compiler.
+2026.10.04 17:56:07 WARN  no build target for: C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java
+2026.10.04 17:56:07 INFO  no build target found for C:\Users\User\Desktop\coffee\CafeManager\src\main\java\com\cafe\HomeController.java. Using fallback presentation compiler.
+2026.10.04 18:56:47 INFO  Shutting down server
+2026.10.04 18:56:47 INFO  Memory monitor stopped
+2026.10.04 18:56:47 INFO  shutting down Metals
+2026.10.04 18:56:47 INFO  Exiting server

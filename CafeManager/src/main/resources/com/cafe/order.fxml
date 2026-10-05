@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox spacing="20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cafe.OrderController">
+    <padding><Insets top="20" right="20" bottom="20" left="20"/></padding>
+
+    <VBox spacing="10" HBox.hgrow="ALWAYS">
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <Label text="Бүтээгдэхүүн" styleClass="title"/>
+            <Region HBox.hgrow="ALWAYS"/>
+            <Label text="Төрөл:"/>
+            <ComboBox fx:id="categoryBox" prefWidth="140"/>
+        </HBox>
+        <ScrollPane fitToWidth="true" VBox.vgrow="ALWAYS" styleClass="product-scroll">
+            <FlowPane fx:id="productPane" hgap="12" vgap="12">
+                <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+            </FlowPane>
+        </ScrollPane>
+        <Label text="Бүтээгдэхүүн дээр дарахад захиалгад нэмэгдэнэ." styleClass="muted"/>
+    </VBox>
+
+    <VBox spacing="10" prefWidth="430" minWidth="400">
+        <Label text="Захиалгын жагсаалт" styleClass="title"/>
+        <TableView fx:id="cartTable" VBox.vgrow="ALWAYS">
+            <columnResizePolicy><TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/></columnResizePolicy>
+            <placeholder><Label text="Захиалга хоосон байна"/></placeholder>
+            <columns>
+                <TableColumn text="Бүтээгдэхүүн"><cellValueFactory><PropertyValueFactory property="name"/></cellValueFactory></TableColumn>
+                <TableColumn text="Үнэ"><cellValueFactory><PropertyValueFactory property="unitPriceText"/></cellValueFactory></TableColumn>
+                <TableColumn text="Тоо" maxWidth="70"><cellValueFactory><PropertyValueFactory property="quantity"/></cellValueFactory></TableColumn>
+                <TableColumn text="Дүн"><cellValueFactory><PropertyValueFactory property="subtotalText"/></cellValueFactory></TableColumn>
+            </columns>
+        </TableView>
+        <HBox spacing="8">
+            <Button text="+" onAction="#onPlus" prefWidth="40"/>
+            <Button text="-" onAction="#onMinus" prefWidth="40"/>
+            <Button text="Мөр хасах" onAction="#onRemove"/>
+            <Button text="Цэвэрлэх" onAction="#onClear"/>
+        </HBox>
+
+        <VBox spacing="8" styleClass="card, gray">
+            <HBox alignment="CENTER_LEFT">
+                <Label text="Нийт төлбөр" styleClass="title"/>
+                <Region HBox.hgrow="ALWAYS"/>
+                <Label fx:id="totalLabel" text="0₮" styleClass="card-value"/>
+            </HBox>
+            <GridPane hgap="10" vgap="8">
+                <Label text="Төлбөрийн хэлбэр:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                <ComboBox fx:id="paymentBox" prefWidth="160" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+                <Label text="Төлсөн дүн:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                <TextField fx:id="paidField" promptText="Жишээ: 20000" prefWidth="160" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+                <Label text="Хариулт:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                <Label fx:id="changeLabel" text="0₮" styleClass="title" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+            </GridPane>
+        </VBox>
+        <Button text="Төлбөр авч хадгалах" onAction="#onSave" styleClass="primary, big" maxWidth="Infinity"/>
+    </VBox>
+</HBox>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+
+<BorderPane stylesheets="@style.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cafe.MainController">
+    <top>
+        <HBox alignment="CENTER_LEFT" spacing="12" styleClass="header">
+            <Label text="Cafe Manager" styleClass="header-title"/>
+            <Region HBox.hgrow="ALWAYS"/>
+            <Label fx:id="userLabel" styleClass="header-user"/>
+            <Button text="Гарах" onAction="#onLogout" styleClass="header-button"/>
+        </HBox>
+    </top>
+    <center>
+        <TabPane fx:id="tabs" tabClosingPolicy="UNAVAILABLE">
+            <Tab text="Нүүр хуудас"><fx:include fx:id="homeView" source="home.fxml"/></Tab>
+            <Tab text="Шинэ захиалга"><fx:include fx:id="orderView" source="order.fxml"/></Tab>
+            <Tab text="Бүтээгдэхүүн"><fx:include fx:id="productView" source="product.fxml"/></Tab>
+            <Tab text="Түүх ба борлуулалт"><fx:include fx:id="historyView" source="history.fxml"/></Tab>
+        </TabPane>
+    </center>
+</BorderPane>
